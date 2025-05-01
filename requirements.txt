@@ -9,3 +9,4 @@ apscheduler==3.11.0
 pytz==2025.2
 websockets==11.0.3
 aiofiles==24.1.0
+httpx
