@@ -1,0 +1,11 @@
+SQLAlchemy==2.0.28
+pydantic-settings==2.9.0
+python-decouple==3.8
+uvicorn==0.23.0
+pydantic==2.5.3
+pydantic-core==2.34.1
+fastapi==0.110.0
+apscheduler==3.11.0
+pytz==2025.2
+websockets==11.0.3
+aiofiles==24.1.0

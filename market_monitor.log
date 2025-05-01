@@ -1,0 +1,942 @@
+2025-05-01 20:23:05,135 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:23:05,135 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:23:05,135 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:23:05,135 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:23:05,136 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:23:05,166 - uvicorn.error - INFO - Started server process [97744]
+2025-05-01 20:23:05,166 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:23:05,166 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,166 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,166 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,166 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,166 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,166 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,166 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:23:05,166 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,167 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,167 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,167 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,167 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:23:05,167 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:23:05,167 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:23:05,168 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:23:05,168 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:23:05,168 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:24:18,877 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:24:18,980 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:24:18,981 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:24:18,982 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:24:18,982 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:24:18,982 - uvicorn.error - INFO - Finished server process [97744]
+2025-05-01 20:24:19,906 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:24:19,907 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:24:19,907 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:24:19,907 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:24:19,908 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:24:19,937 - uvicorn.error - INFO - Started server process [99249]
+2025-05-01 20:24:19,937 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:24:19,937 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:24:19,937 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,937 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:24:19,937 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,937 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:24:19,938 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:24:19,938 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:24:19,939 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:24:19,939 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:24:19,939 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:24:45,003 - market_monitor - INFO - Sending daily_summary notification with message:
+📊 **DAILY MARKET SCHEDULE**
+
+Today: Thursday, 01 May 2025
+
+Current time in Phnom Penh: 20:24
+
+🇦🇺 **Australian Securities Exchange (ASX)** 🟢
+* **Local Time:** 10:00 – 16:00 (Sydney)
+* **Phnom Penh Time:** 07:00 – 13:00 (Phnom Penh)
+* **Notes:** Opening auction starts at 10:00 AM AEST; no lunch break.
+
+🇭🇰 **Hong Kong Stock Exchange (HKEX)** 🟢
+* **Local Time:** 09:30 – 16:00 (Hong_Kong)
+* **Phnom Penh Time:** 08:30 – 15:00 (Phnom Penh)
+* **Notes:** Lunch break from 12:00 PM – 1:00 PM HKT.
+
+🇬🇧 **London Stock Exchange (LSE)** 🟢
+* **Local Time:** 08:00 – 16:30 (London)
+* **Phnom Penh Time:** 14:00 – 22:30 (Phnom Penh)
+* **Notes:** No lunch break; operates Monday to Friday.
+
+🗽 **New York Stock Exchange (NYSE)** 🟢
+* **Local Time:** 09:30 – 16:00 (New_York)
+* **Phnom Penh Time:** 20:30 – 03:00 (Phnom Penh)
+* **Notes:** Pre-market trading from 4:00 AM – 9:30 AM ET; after-hours trading until 8:00 PM ET.
+
+🇯🇵 **Tokyo Stock Exchange (TSE)** 🟢
+* **Local Time:** 09:00 – 15:00 (Tokyo)
+* **Phnom Penh Time:** 07:00 – 13:00 (Phnom Penh)
+* **Notes:** Lunch break from 11:30 AM – 12:30 PM JST.
+2025-05-01 20:24:45,796 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 401 Unauthorized"
+2025-05-01 20:24:45,797 - market_monitor - ERROR - Failed to send notification: {"message":"Unauthorized","success":false}
+2025-05-01 20:25:00,002 - apscheduler.executors.default - INFO - Running job "check_market_opening (trigger: cron[hour='20', minute='25'], next run at: 2025-05-02 20:25:00 +07)" (scheduled at 2025-05-01 20:25:00+07:00)
+2025-05-01 20:25:00,005 - market_monitor - INFO - Market NYSE opening check - Local time: 09:25
+2025-05-01 20:25:00,006 - market_monitor - INFO - Sending market_opening notification with message:
+🔔 **MARKET OPENING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** opening in 5 minutes
+* **Local Time:** 09:30
+* **Phnom Penh Time:** 20:30
+2025-05-01 20:25:00,231 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 401 Unauthorized"
+2025-05-01 20:25:00,232 - market_monitor - ERROR - Failed to send notification: {"message":"Unauthorized","success":false}
+2025-05-01 20:25:00,232 - apscheduler.executors.default - INFO - Job "check_market_opening (trigger: cron[hour='20', minute='25'], next run at: 2025-05-02 20:25:00 +07)" executed successfully
+2025-05-01 20:25:50,787 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:25:50,890 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:25:50,890 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:25:50,891 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:25:50,891 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:25:50,891 - uvicorn.error - INFO - Finished server process [99249]
+2025-05-01 20:25:51,438 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:25:51,438 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:25:51,438 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:25:51,439 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:25:51,439 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:25:51,470 - uvicorn.error - INFO - Started server process [6262]
+2025-05-01 20:25:51,470 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:25:51,470 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:25:51,470 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,470 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:25:51,470 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,470 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:25:51,470 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,470 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:25:51,470 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,470 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:25:51,470 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,470 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,471 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,471 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,471 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,471 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,471 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:25:51,471 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:25:51,471 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:25:51,472 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:25:51,472 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:25:51,472 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:25:52,758 - market_monitor - INFO - Sending daily_summary notification with message:
+📊 **DAILY MARKET SCHEDULE**
+
+Today: Thursday, 01 May 2025
+
+Current time in Phnom Penh: 20:25
+
+🇦🇺 **Australian Securities Exchange (ASX)** 🟢
+* **Local Time:** 10:00 – 16:00 (Sydney)
+* **Phnom Penh Time:** 07:00 – 13:00 (Phnom Penh)
+* **Notes:** Opening auction starts at 10:00 AM AEST; no lunch break.
+
+🇭🇰 **Hong Kong Stock Exchange (HKEX)** 🟢
+* **Local Time:** 09:30 – 16:00 (Hong_Kong)
+* **Phnom Penh Time:** 08:30 – 15:00 (Phnom Penh)
+* **Notes:** Lunch break from 12:00 PM – 1:00 PM HKT.
+
+🇬🇧 **London Stock Exchange (LSE)** 🟢
+* **Local Time:** 08:00 – 16:30 (London)
+* **Phnom Penh Time:** 14:00 – 22:30 (Phnom Penh)
+* **Notes:** No lunch break; operates Monday to Friday.
+
+🗽 **New York Stock Exchange (NYSE)** 🟢
+* **Local Time:** 09:30 – 16:00 (New_York)
+* **Phnom Penh Time:** 20:30 – 03:00 (Phnom Penh)
+* **Notes:** Pre-market trading from 4:00 AM – 9:30 AM ET; after-hours trading until 8:00 PM ET.
+
+🇯🇵 **Tokyo Stock Exchange (TSE)** 🟢
+* **Local Time:** 09:00 – 15:00 (Tokyo)
+* **Phnom Penh Time:** 07:00 – 13:00 (Phnom Penh)
+* **Notes:** Lunch break from 11:30 AM – 12:30 PM JST.
+2025-05-01 20:25:53,875 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:25:53,876 - market_monitor - INFO - Notification sent for daily_summary event
+2025-05-01 20:26:06,272 - market_monitor - INFO - Market NYSE opening check - Local time: 09:26
+2025-05-01 20:26:06,273 - market_monitor - INFO - Sending market_opening notification with message:
+🔔 **MARKET OPENING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** opening in 5 minutes
+* **Local Time:** 09:30
+* **Phnom Penh Time:** 20:30
+2025-05-01 20:26:06,887 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:26:06,887 - market_monitor - INFO - Notification sent for market_opening event
+2025-05-01 20:26:16,329 - market_monitor - INFO - Market NYSE opening check - Local time: 09:26
+2025-05-01 20:26:16,329 - market_monitor - INFO - Sending market_opening notification with message:
+🔔 **MARKET OPENING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** opening in 5 minutes
+* **Local Time:** 09:30
+* **Phnom Penh Time:** 20:30
+2025-05-01 20:26:16,958 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:26:16,960 - market_monitor - INFO - Notification sent for market_opening event
+2025-05-01 20:28:07,733 - market_monitor - INFO - Market NYSE closing check - Local time: 09:28
+2025-05-01 20:28:07,734 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:28:09,293 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:28:09,294 - market_monitor - INFO - Notification sent for market_closing event
+2025-05-01 20:28:52,093 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:28:52,195 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:28:52,195 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:28:52,195 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:28:52,195 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:28:52,195 - uvicorn.error - INFO - Finished server process [6262]
+2025-05-01 20:29:21,905 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:29:21,906 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:29:21,906 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:29:21,906 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:29:21,906 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:29:21,934 - uvicorn.error - INFO - Started server process [10534]
+2025-05-01 20:29:21,934 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:29:21,934 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:29:21,934 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,934 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:29:21,934 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,934 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:29:21,934 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,934 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:29:21,935 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:29:21,935 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:29:21,936 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:29:21,936 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:29:21,936 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:29:36,418 - market_monitor - INFO - Market NYSE closing check - Local time: 09:29
+2025-05-01 20:29:36,418 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:29:42,401 - market_monitor - INFO - Market NYSE closing check - Local time: 09:29
+2025-05-01 20:29:42,402 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:30:05,834 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:30:05,935 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:30:05,936 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:30:05,937 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:30:05,937 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:30:05,937 - uvicorn.error - INFO - Finished server process [10534]
+2025-05-01 20:33:07,293 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:33:07,293 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:33:07,294 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:33:07,294 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:33:07,294 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:33:07,312 - uvicorn.error - INFO - Started server process [15077]
+2025-05-01 20:33:07,312 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:33:07,312 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:33:07,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,312 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,313 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,313 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:33:07,313 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:33:07,313 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:33:07,313 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:33:07,314 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:33:23,477 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:33:23,579 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:33:23,580 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:33:23,580 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:33:23,581 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:33:23,581 - uvicorn.error - INFO - Finished server process [15077]
+2025-05-01 20:35:06,659 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:35:06,660 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:35:06,660 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:35:06,660 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:35:06,660 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:35:06,689 - uvicorn.error - INFO - Started server process [17451]
+2025-05-01 20:35:06,689 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:35:06,689 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:35:06,689 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,689 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:35:06,689 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,689 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:35:06,689 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,689 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:06,690 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:06,690 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:35:06,691 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:35:06,691 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:35:06,691 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:35:08,442 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:08,442 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:13,550 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:13,550 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:14,039 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:14,039 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:14,569 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:14,569 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:27,617 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:27,617 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:36,971 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:36,971 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:43,424 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:35:43,526 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:35:43,527 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:35:43,527 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:35:43,527 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:35:43,527 - uvicorn.error - INFO - Finished server process [17451]
+2025-05-01 20:35:44,087 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:35:44,087 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:35:44,088 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:35:44,088 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:35:44,089 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:35:44,122 - uvicorn.error - INFO - Started server process [18239]
+2025-05-01 20:35:44,122 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:35:44,122 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:35:44,122 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,122 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:35:44,122 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,122 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:35:44,122 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,122 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:35:44,122 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:44,123 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:35:44,123 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:35:44,124 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:35:44,124 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:35:44,124 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:35:45,303 - market_monitor - ERROR - Error triggering test notification: send_notification() missing 1 required positional argument: 'markets_data'
+Traceback (most recent call last):
+  File "/Users/sokhengdin/Desktop/Work/Alpha/market-hour/main.py", line 394, in test_notification
+    result = await send_notification(market_code, is_test=False)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: send_notification() missing 1 required positional argument: 'markets_data'
+2025-05-01 20:35:55,746 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:35:55,847 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:35:55,848 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:35:55,848 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:35:55,848 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:35:55,848 - uvicorn.error - INFO - Finished server process [18239]
+2025-05-01 20:35:56,426 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:35:56,426 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:35:56,426 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:35:56,426 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:35:56,427 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:35:56,447 - uvicorn.error - INFO - Started server process [18508]
+2025-05-01 20:35:56,447 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:35:56,447 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:35:56,447 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,447 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:35:56,447 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,447 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:35:56,447 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:35:56,448 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:56,448 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:35:56,449 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:35:56,449 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:35:56,449 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:35:58,619 - market_monitor - INFO - Market NYSE closing check - Local time: 09:35
+2025-05-01 20:35:58,619 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:35:59,766 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:35:59,767 - market_monitor - INFO - Notification sent for market_closing event
+2025-05-01 20:35:59,770 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/routing.py", line 296, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/routing.py", line 155, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'dict_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary', 'input': True}
+
+2025-05-01 20:36:12,932 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:36:13,034 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:36:13,034 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:36:13,035 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:36:13,035 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:36:13,035 - uvicorn.error - INFO - Finished server process [18508]
+2025-05-01 20:36:42,983 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:36:42,983 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:36:42,983 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:36:42,984 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:36:42,984 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:36:43,002 - uvicorn.error - INFO - Started server process [19445]
+2025-05-01 20:36:43,002 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:36:43,002 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:36:43,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:36:43,002 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:36:43,003 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:36:43,003 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:36:43,003 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:36:46,012 - market_monitor - INFO - Market NYSE closing check - Local time: 09:36
+2025-05-01 20:36:46,012 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 MARKET CLOSING SOON
+
+🗽 New York Stock Exchange (NYSE) closing in 5 minutes
+ Local Time: 16:00
+ Phnom Penh Time: 03:00
+2025-05-01 20:36:46,873 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:36:46,874 - market_monitor - INFO - Notification sent for market_closing event
+2025-05-01 20:36:46,875 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/routing.py", line 296, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/routing.py", line 155, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'dict_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary', 'input': True}
+
+2025-05-01 20:37:17,491 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:37:17,593 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:37:17,594 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:37:17,594 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:37:17,594 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:37:17,594 - uvicorn.error - INFO - Finished server process [19445]
+2025-05-01 20:37:52,417 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:37:52,417 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:37:52,418 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:37:52,418 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:37:52,418 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:37:52,437 - uvicorn.error - INFO - Started server process [20827]
+2025-05-01 20:37:52,437 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:37:52,437 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,437 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:37:52,437 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,438 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,438 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:37:52,438 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:37:52,438 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:37:52,438 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:37:52,438 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:37:54,295 - market_monitor - INFO - Market NYSE closing check - Local time: 09:37
+2025-05-01 20:37:54,295 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:37:59,846 - market_monitor - INFO - Market NYSE closing check - Local time: 09:37
+2025-05-01 20:37:59,846 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:38:08,411 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:38:08,512 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:38:08,513 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:38:08,513 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:38:08,514 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:38:08,514 - uvicorn.error - INFO - Finished server process [20827]
+2025-05-01 20:38:09,054 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:38:09,055 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:38:09,055 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:38:09,055 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:38:09,056 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:38:09,088 - uvicorn.error - INFO - Started server process [21159]
+2025-05-01 20:38:09,088 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:38:09,088 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:38:09,088 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,088 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:38:09,088 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,088 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:38:09,088 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,088 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:38:09,088 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,088 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:09,089 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:09,089 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:38:09,090 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:38:09,090 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:38:09,090 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:38:10,310 - market_monitor - INFO - Market NYSE closing check - Local time: 09:38
+2025-05-01 20:38:10,311 - market_monitor - INFO - Sending market_closing notification with message:
+🔔 **MARKET CLOSING SOON**
+
+🗽 **New York Stock Exchange (NYSE)** closing in 5 minutes
+* **Local Time:** 16:00
+* **Phnom Penh Time:** 03:00
+2025-05-01 20:38:10,941 - httpx - INFO - HTTP Request: POST http://217.15.161.155:3005/api/v1/telegram/send "HTTP/1.1 200 OK"
+2025-05-01 20:38:10,941 - market_monitor - INFO - Notification sent for market_closing event
+2025-05-01 20:38:10,942 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/routing.py", line 296, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sokhengdin/miniconda3/envs/cdc_dev/lib/python3.11/site-packages/fastapi/routing.py", line 155, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'dict_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary', 'input': True}
+
+2025-05-01 20:38:24,677 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:38:24,779 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:38:24,781 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:38:24,781 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:38:24,782 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:38:24,782 - uvicorn.error - INFO - Finished server process [21159]
+2025-05-01 20:38:25,264 - market_monitor - INFO - NYSE: Local 09:30-16:00 = Phnom Penh 20:30-03:00
+2025-05-01 20:38:25,264 - market_monitor - INFO - LSE: Local 08:00-16:30 = Phnom Penh 14:00-22:30
+2025-05-01 20:38:25,265 - market_monitor - INFO - TSE: Local 09:00-15:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:38:25,265 - market_monitor - INFO - HKEX: Local 09:30-16:00 = Phnom Penh 08:30-15:00
+2025-05-01 20:38:25,265 - market_monitor - INFO - ASX: Local 10:00-16:00 = Phnom Penh 07:00-13:00
+2025-05-01 20:38:25,283 - uvicorn.error - INFO - Started server process [21487]
+2025-05-01 20:38:25,283 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-01 20:38:25,283 - market_monitor - INFO - Market monitor starting
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled opening notification for NYSE at 20:25
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled closing notification for NYSE at 2:55
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled opening notification for LSE at 13:55
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled closing notification for LSE at 22:25
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled opening notification for TSE at 6:55
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled closing notification for TSE at 12:55
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled opening notification for HKEX at 8:25
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,283 - market_monitor - INFO - Scheduled closing notification for HKEX at 14:55
+2025-05-01 20:38:25,283 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,284 - market_monitor - INFO - Scheduled opening notification for ASX at 6:55
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,284 - market_monitor - INFO - Scheduled closing notification for ASX at 12:55
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-01 20:38:25,284 - market_monitor - INFO - Scheduled daily market summary at 6:00 AM
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_opening" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "check_market_closing" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Added job "daily_summary" to job store "default"
+2025-05-01 20:38:25,284 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-01 20:38:25,284 - uvicorn.error - INFO - Application startup complete.
+2025-05-01 20:38:25,285 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-05-01 20:38:26,909 - uvicorn.error - INFO - Shutting down
+2025-05-01 20:38:27,014 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-01 20:38:27,015 - market_monitor - INFO - Market monitor shutting down
+2025-05-01 20:38:27,015 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-01 20:38:27,015 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-01 20:38:27,015 - uvicorn.error - INFO - Finished server process [21487]

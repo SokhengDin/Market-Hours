@@ -1,0 +1,27 @@
+services:
+  market_monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: market_monitor
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+      - ./market_monitor.log:/app/market_monitor.log
+    environment:
+      - API_BASE_URL=${API_BASE_URL}
+      - API_TOKEN=${API_TOKEN}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - monitor_network
+
+networks:
+  monitor_network:
+    external: true
