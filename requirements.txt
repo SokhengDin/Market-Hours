@@ -2,8 +2,8 @@ SQLAlchemy==2.0.28
 pydantic-settings==2.9.0
 python-decouple==3.8
 uvicorn==0.23.0
-pydantic==2.5.3
-pydantic-core==2.34.1
+pydantic
+pydantic-core
 fastapi==0.110.0
 apscheduler==3.11.0
 pytz==2025.2
