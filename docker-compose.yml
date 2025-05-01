@@ -7,7 +7,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./:/app
-      - ./market_monitor.log:/app/market_monitor.log
     environment:
       - API_BASE_URL=${API_BASE_URL}
       - API_TOKEN=${API_TOKEN}
