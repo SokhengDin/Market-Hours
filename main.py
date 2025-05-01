@@ -129,11 +129,11 @@ async def send_notification(
         
         # Add header based on event type
         if event_type == "market_opening":
-            message_parts.append("🔔 **MARKET OPENING SOON**")
+            message_parts.append("🔔 *MARKET OPENING SOON*")
         elif event_type == "market_closing":
-            message_parts.append("🔔 **MARKET CLOSING SOON**")
+            message_parts.append("🔔 *MARKET CLOSING SOON*")
         elif event_type == "daily_summary":
-            message_parts.append("📊 **DAILY MARKET SCHEDULE**")
+            message_parts.append("📊 *DAILY MARKET SCHEDULE*")
             message_parts.append(f"Today: {now.strftime('%A, %d %B %Y')}")
             message_parts.append(f"Current time in Phnom Penh: {now.strftime('%H:%M')}")
         
@@ -142,34 +142,37 @@ async def send_notification(
             icon        = MARKETS.get(market_code, {}).get("icon", "🏢")
             
             if event_type == "market_opening":
-                market_msg = f"{icon} **{market['name']}** opening in 5 minutes"
-                market_msg += f"\n* **Local Time:** {market['local_time'].split(' – ')[0]}"
-                market_msg += f"\n* **Phnom Penh Time:** {market['phnom_penh_time'].split(' – ')[0]}"
+                market_msg = f"{icon} *{market['name']}* opening in 5 minutes"
+                market_msg += f"\n• Local Time: {market['local_time'].split(' – ')[0]}"
+                market_msg += f"\n• Phnom Penh Time: {market['phnom_penh_time'].split(' – ')[0]}"
             elif event_type == "market_closing":
-                market_msg = f"{icon} **{market['name']}** closing in 5 minutes"
-                market_msg += f"\n* **Local Time:** {market['local_time'].split(' – ')[1]}"
-                market_msg += f"\n* **Phnom Penh Time:** {market['phnom_penh_time'].split(' – ')[1]}"
+                market_msg = f"{icon} *{market['name']}* closing in 5 minutes"
+                market_msg += f"\n• Local Time: {market['local_time'].split(' – ')[1]}"
+                market_msg += f"\n• Phnom Penh Time: {market['phnom_penh_time'].split(' – ')[1]}"
             else:
                 # Daily summary format with status indicator
                 status_indicator = "🟢" if market['status'] == "trading" else "🔴"
-                market_msg = f"{icon} **{market['name']}** {status_indicator}"
-                market_msg += f"\n* **Local Time:** {market['local_time']}"
-                market_msg += f"\n* **Phnom Penh Time:** {market['phnom_penh_time']}"
+                market_msg = f"{icon} *{market['name']}* {status_indicator}"
+                market_msg += f"\n• Local Time: {market['local_time']}"
+                market_msg += f"\n• Phnom Penh Time: {market['phnom_penh_time']}"
                 if market.get("notes"):
-                    market_msg += f"\n* **Notes:** {market['notes']}"
+                    market_msg += f"\n• Notes: {market['notes']}"
             
             message_parts.append(market_msg)
         
         formatted_message = "\n\n".join(message_parts)
+    
+        # Characters that need escaping: _*[]()~`>#+-=|{}.!
+        for char in ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']:
+            formatted_message = formatted_message.replace(char, f"\\{char}")
         
-        # New simplified notification data with only the message
         notification_data = NotificationPayload(
             message = formatted_message
         ).model_dump()
 
         logger.info(f"Sending {event_type} notification with message:\n{formatted_message}")
         
-        # For test mode, just return the notification data without sending it
+        # Test mode
         if is_test:
             return notification_data
         
@@ -190,7 +193,6 @@ async def send_notification(
     except Exception as e:
         logger.exception(f"Error sending {event_type} notification")
         return False
-
 async def check_market_opening(
     market_code         : str
     , is_test           : bool = False
