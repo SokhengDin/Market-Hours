@@ -394,6 +394,13 @@ async def test_notification(
         
         # Must be market_closing at this point
         result = await check_market_closing(market_code, is_test=True)
+
+        await send_notification(
+            "Test"
+            , market_code
+            , False
+        )
+
         return result
     
     except Exception as e:
