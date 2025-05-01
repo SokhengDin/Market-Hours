@@ -5,8 +5,6 @@ services:
       dockerfile: Dockerfile
     container_name: market_monitor
     restart: unless-stopped
-    ports:
-      - "8000:8000"
     volumes:
       - ./:/app
       - ./market_monitor.log:/app/market_monitor.log
